@@ -11,12 +11,12 @@ $array_passwords = array(
 );
 
 if (isset($_POST['username']) && isset($_POST['password'])) {
-    $username = md5((strtolower(trim($_POST['username']))));
-    $password = md5((strtolower(trim($_POST['password']))));
+    $username = md5(strtolower(trim($_POST['username'])));
+    $password = md5(strtolower(trim($_POST['password'])));
     if (in_array($username, $array_usernames)) {
         if (in_array($password, $array_passwords)) {
             header("Location: main_page.php");
-            exit;
+            exit();
         } else {
             echo "Senha ou email inválidos";
         }

@@ -16,7 +16,7 @@
             <form method="POST" action="login_ver.php">
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" name="username" placeholder="Digite seu email" required>
+                    <input type="text" class="form-control" name="username" placeholder="Digite seu username" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Senha</label>
@@ -27,13 +27,12 @@
                 </div>
             </form>
             <div class="mt-3 text-center">
-                <p class="font-italic text-center text-muted">Dica: o username pode ser seu primeiro nome e a senha 123456</p>
+                <p class="font-italic text-center text-muted">Dica: o username pode ser seu primeiro nome e a senha
+                    123456</p>
             </div>
-            </form>
             <div class="mt-3 text-center">
                 <p>Não tem uma conta? <a href="register.php">Registrar</a></p>
             </div>
-
         </div>
     </div>
 

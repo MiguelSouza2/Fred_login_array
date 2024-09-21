@@ -33,7 +33,7 @@
 
             echo "<div class='border border-warning'>";
 
-            $fill = array_fill(0, 1, "<br><br>Sim. E você?");
+            $fill = array_fill(0, 1, "<br><br>Sim. E você<img src='../img/int.png'>");
             $answer = array_merge($array, $fill);
             echo "<h2 class='mt-3'>Continuando a conversa:</h2>";
             print_r($answer);
@@ -59,7 +59,6 @@
             echo "<div class='bg-info text-dark m-3 rounded'>";
             echo "<h2 class='mt-3'>Resultado:</h2>";
             $implodedarray1 = implode(" ", $array);
-            echo $implodedarray1 . "<br><br>";
             $implodedarray2 = implode(" ", $answer);
             echo $implodedarray2 . "<br><br>";
             $implodedarray3 = implode(" ", $arr2);
